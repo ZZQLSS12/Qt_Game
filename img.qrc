@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>D:/桌面/插图/屏幕截图 2023-05-17 160905.png</file>
+        <file>D:/桌面/插图/spaceMeteors_002.png</file>
+        <file>D:/桌面/插图/新建文件夹/panda.png</file>
+        <file>D:/桌面/插图/新建文件夹/parrot.png</file>
+        <file>D:/桌面/插图/Gameover.jpg</file>
+        <file>D:/桌面/插图/91953835_p0_master12001.jpg</file>
+        <file>D:/桌面/插图/choose.jpg</file>
+        <file>D:/桌面/插图/20230523224830.png</file>
+        <file>D:/桌面/插图/新建文件夹/penguin.png</file>
+        <file>D:/桌面/插图/经验物1.png</file>
+        <file>D:/桌面/插图/经验物2.png</file>
+        <file>D:/桌面/插图/我方子弹.png</file>
+        <file>D:/桌面/插图/烤鸡—回复生命值.png</file>
+        <file>D:/桌面/插图/新建文件夹/rabbit.png</file>
+        <file>D:/桌面/插图/不可破坏障碍物.png</file>
+        <file>D:/桌面/插图/可破坏障碍物.png</file>
+        <file>D:/桌面/插图/背景.png</file>
+        <file>D:/桌面/插图/敌人子弹1.png</file>
+        <file>D:/桌面/插图/敌人子弹2.png</file>
+        <file>D:/桌面/插图/左刀光.png</file>
+        <file>D:/桌面/插图/右刀光.png</file>
+        <file>D:/桌面/插图/商店按钮.png</file>
+        <file>D:/桌面/插图/商店背景.jpg</file>
+        <file>D:/桌面/插图/开始按钮.png</file>
+        <file>D:/桌面/插图/读档按钮.png</file>
+        <file>D:/桌面/插图/读档背景.jpg</file>
+        <file>D:/桌面/插图/游戏内交互界面.png</file>
+        <file>D:/桌面/插图/武器1.png</file>
+        <file>D:/桌面/插图/武器2.png</file>
+    </qresource>
+    <qresource prefix="/gif">
+        <file>D:/桌面/插图/爆炸.gif</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>D:/桌面/音效/Pick up.wav</file>
+        <file>D:/桌面/音效/Player_bullet.wav</file>
+        <file>D:/桌面/音效/sword.wav</file>
+        <file>D:/桌面/音效/click.wav</file>
+        <file>D:/桌面/音效/store.wav</file>
+        <file>D:/桌面/音效/uplevel.wav</file>
+        <file>D:/桌面/音效/buy.wav</file>
+        <file>D:/桌面/音效/gameover.wav</file>
+        <file>D:/桌面/音效/explore.wav</file>
+    </qresource>
+</RCC>

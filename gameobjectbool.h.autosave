@@ -1,0 +1,46 @@
+#ifndef GAMEOBJECTBOOL_H
+#define GAMEOBJECTBOOL_H
+
+#include<QObject>
+#include<player_bullet.h>
+#include<elitist_bullet.h>
+#include<enemy.h>
+#include<elitist.h>
+#include<gameobject.h>
+class Gameobjectbool: public QObject
+{
+    Gameobjectbool(QObject* parent = nullptr);
+    static Gameobjectbool* instance;
+public:
+    static Gameobjectbool* Instance()
+    {
+        if(instance == nullptr)
+        {
+            return instance = new Gameobjectbool;
+        }
+
+        return  instance;
+    }
+    
+    void Init();//初始化
+    
+    Gameobject* GetGameobject(int object_type);//获取对象池中的缓存对象
+    
+    void RecoverGameobject(Gameobject* obj);
+    
+     
+protected:
+
+    QList<player_bullet*>mPlayerBulletList;
+    QList<elitist_bullet*> mElitistBulletList;
+    
+    QList<enemy*> mEnemyList;//敌人容器
+    QList<Elitist*> mElitistList;//精英怪容器
+    
+    
+    
+    
+
+};
+
+#endif // GAMEOBJECTBOOL_H

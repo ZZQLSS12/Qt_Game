@@ -1,0 +1,8 @@
+#include "hero.h"
+#include<QGraphicsPixmapItem>
+#include<QTimer>
+
+hero::hero()
+{
+    
+}
